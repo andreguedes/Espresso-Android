@@ -1,11 +1,12 @@
 package com.andreguedes.espressotest.login
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_login.*
 import android.support.v7.app.AlertDialog
 import com.andreguedes.espressotest.R
+import com.andreguedes.espressotest.main.MainActivity
 
 class LoginActivity : AppCompatActivity(), LoginContract.View {
 
@@ -31,7 +32,7 @@ class LoginActivity : AppCompatActivity(), LoginContract.View {
     }
 
     override fun goToMain() {
-        Toast.makeText(this, "Go to next screen!", Toast.LENGTH_SHORT).show()
+        startActivity(Intent(this, MainActivity::class.java))
     }
 
 }
