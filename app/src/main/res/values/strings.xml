@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Espresso Test</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+
+    <!-- Messages -->
+    <string name="ok">Ok</string>
+    <string name="alert">Alert</string>
+    <string name="username_msg_error">Invalid username</string>
+    <string name="password_msg_error">Invalid password</string>
+    <string name="fields_msg_error">Invalid fields</string>
 </resources>
