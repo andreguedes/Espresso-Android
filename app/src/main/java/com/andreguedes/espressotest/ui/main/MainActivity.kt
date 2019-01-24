@@ -1,4 +1,4 @@
-package com.andreguedes.espressotest.main
+package com.andreguedes.espressotest.ui.main
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

@@ -1,4 +1,4 @@
-package com.andreguedes.espressotest.login
+package com.andreguedes.espressotest.ui.login
 
 import com.andreguedes.espressotest.R
 

@@ -1,4 +1,4 @@
-package com.andreguedes.espressotest.login
+package com.andreguedes.espressotest.ui.login
 
 import android.app.Activity
 import android.app.Instrumentation
@@ -13,7 +13,7 @@ import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.rule.ActivityTestRule
 import androidx.test.runner.AndroidJUnit4
 import com.andreguedes.espressotest.R
-import com.andreguedes.espressotest.main.MainActivity
+import com.andreguedes.espressotest.ui.main.MainActivity
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith

@@ -1,10 +1,9 @@
-package com.andreguedes.espressotest.login
+package com.andreguedes.espressotest.ui.login
 
 import com.andreguedes.espressotest.R
 import com.nhaarman.mockito_kotlin.mock
 import com.nhaarman.mockito_kotlin.never
 import com.nhaarman.mockito_kotlin.verify
-import org.junit.Assert.*
 import org.junit.Before
 import org.junit.Test
 

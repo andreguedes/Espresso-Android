@@ -1,4 +1,4 @@
-package com.andreguedes.espressotest.login
+package com.andreguedes.espressotest.ui.login
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
@@ -6,7 +6,7 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_login.*
 import android.support.v7.app.AlertDialog
 import com.andreguedes.espressotest.R
-import com.andreguedes.espressotest.main.MainActivity
+import com.andreguedes.espressotest.ui.main.MainActivity
 
 class LoginActivity : AppCompatActivity(), LoginContract.View {
 

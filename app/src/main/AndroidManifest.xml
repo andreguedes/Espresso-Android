@@ -12,9 +12,9 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".main.MainActivity">
+        <activity android:name="com.andreguedes.espressotest.ui.main.MainActivity">
         </activity>
-        <activity android:name=".login.LoginActivity">
+        <activity android:name="com.andreguedes.espressotest.ui.login.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
